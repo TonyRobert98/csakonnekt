@@ -1,0 +1,110 @@
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+.social ul li.face:hover{
+	color:#1877f2;
+}
+.social ul li.yout:hover{
+	color:#ff0000;
+}
+.social ul li.twit:hover{
+	color:#1da1f2;
+}
+.social ul li.insta:hover{
+	color:#9c27b0;
+}
+.foo{
+	background:orange;
+}
+.social ul{
+	margin-left:40%;
+}
+.cop{
+	margin-top:20px;
+	text-align:center;
+}
+.social ul li{
+	display:inline-flex;
+	list-style:none;
+	margin:1%;
+}
+.social ul li a{
+	font-size:112%;
+	color:#000;
+}
+.image img{
+	border-radius:100%;
+	width:60%;
+}
+.developers{
+	margin-top:20%;
+	text-align:center;
+}
+.about p{
+	margin:0 10% 0 5%;
+}
+footer{
+	margin-top:7%;
+}
+body{
+	background:rgba(0,70,235,0.1);
+	font-family: 'Open Sans', sans-serif;
+}
+.about{
+	margin-top:10%;
+}
+.about ul{
+  	margin-left:20%;
+}
+.about p{
+	margin-left:100pxx`;
+}
+.about h4{
+	margin-top:20px;
+}
+.welcome{
+	box-shadow:0 1px 2px #999;
+	padding:9px;
+	margin-top:20%;
+	text-align:center;
+}
+.welcome button{
+	outline:none;
+	border:none;
+	background:rgba(20,70,255,0.9);
+	padding:10px 20px 10px 20px;
+	font-size:115%;
+	border-radius:25px;
+}
+.welcome button a{
+	color:#fff;
+	text-decoration:none;
+}
+.welcome p{
+	margin-top:10px;
+}
+.top img{
+	width:25%;
+	padding:5px;
+}
+nav{
+	width:100%;	
+	background:#fff;
+	box-shadow:0 2px 3px #555;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;
+}
+@media(min-width:630px){
+.top img{
+width:14%;
+}
+.welcome{
+margin-top:14%;
+}
+.image img{
+width:40%;
+}
